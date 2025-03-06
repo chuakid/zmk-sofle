@@ -76,13 +76,13 @@
         layer_1 {
             bindings = <
 &kp ESCAPE  &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6      &kp F7            &kp F8             &kp F9    &kp F10  &trans
-&trans      &kp F12          &trans          &trans           &trans           &trans             &mmv MOVE_DOWN   &kp PG_UP   &kp MINUS         &kp PLUS           &kp HOME  &trans   &trans
+&trans      &kp F12          &trans          &trans           &trans           &trans             &mmv MOVE_DOWN   &kp PG_UP   &kp MINUS         &kp EQUAL          &kp HOME  &trans   &trans
 &trans      &kp LC(LS(TAB))  &trans          &kp LC(TAB)      &trans           &trans             &mmv MOVE_LEFT   &kp PG_DN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp END   &trans   &trans
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &trans      &tog 1            &kp INSERT         &kp F11   &kp F12  &kp PAGE_UP
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp DELETE  &trans            &kp RCTRL          &trans    &trans
             >;
 
-            display-name = "layer1";
+            display-name = "1";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -96,6 +96,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "2";
         };
     };
 };
