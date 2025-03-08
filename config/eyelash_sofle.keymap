@@ -46,7 +46,7 @@
 &bt BT_CLR    &trans        &trans        &trans          &trans        &trans          &mmv MOVE_DOWN   &trans  &trans    &kp UP    &kp F12    &kp UNDER  &kp PLUS
 &trans        &trans        &trans        &trans          &trans        &tog 3          &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LBRC   &kp RBRC
 &trans        &trans        &trans        &studio_unlock  &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans    &trans    &trans     &trans     &trans
-&trans        &trans        &trans        &trans          &trans        &trans          &mkp LCLK        &trans  &trans    &trans    &trans     &trans
+&trans        &trans        &trans        &trans          &kp LCTRL     &trans          &mkp LCLK        &trans  &trans    &trans    &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB))>;
