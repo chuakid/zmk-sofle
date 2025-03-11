@@ -32,7 +32,7 @@
 &trans   &trans           &trans  &trans       &trans  &trans    &mmv MOVE_DOWN   &kp PAGE_UP    &trans    &kp UP    &trans     &trans    &trans
 &trans   &kp LS(LC(TAB))  &trans  &kp LC(TAB)  &trans  &tog 3    &mmv MOVE_LEFT   &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans
 &trans   &trans           &trans  &trans       &trans  &trans    &mmv MOVE_RIGHT  &trans         &trans    &trans    &trans     &kp BSLH  &trans
-&trans   &trans           &trans  &trans       &mo 2   &trans    &mkp LCLK        &trans         &trans    &trans    &trans     &trans
+&trans   &trans           &trans  &trans       &trans  &mo 2     &mkp LCLK        &trans         &trans    &trans    &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB))>;
